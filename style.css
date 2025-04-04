@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    margin: 0;
+}
+
 body {
     height: 100vh;
     font-family: "Roboto", Arial, sans-serif;
@@ -11,17 +15,11 @@ body {
 
 ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 a {
     text-decoration: none;
     color: inherit;
-}
-
-p {
-    margin: 0;
 }
 
 button {
@@ -62,7 +60,6 @@ button {
 
 .hero-content h1 {
     font-size: 48px;
-    margin: 0;
 }
 
 .hero-content button {
@@ -157,7 +154,6 @@ button {
 .call-to-action-content h4 {
     font-size: 20px;
     color: #F9FAF8;
-    margin: 0;
 }
 
 .call-to-action-content div {
