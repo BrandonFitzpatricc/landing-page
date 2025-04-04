@@ -16,6 +16,10 @@ a {
     color: inherit;
 }
 
+p {
+    margin: 0px;
+}
+
 .hero-section {
     background-color: #1F2937;
     padding: 15px 165px;
@@ -72,7 +76,6 @@ a {
 .links, .hero-content p {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 0px;
 }
 
 .info-section {
@@ -83,11 +86,11 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    margin: 50px;
+    margin: 45px;
 }
 
 .info-container {
-    margin-bottom: 125px;
+    margin-bottom: 120px;
     display: flex;
     justify-content: center;
     gap: 60px;
@@ -102,4 +105,31 @@ a {
     border-radius: 25px;
     height: 169px;
     width: 159px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 135px 0 110px;
+}
+
+.quote-container {
+    width: 775px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.quote-container p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937
+}
+
+.quote-container div {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 35px;
+    align-self: flex-end;
 }
