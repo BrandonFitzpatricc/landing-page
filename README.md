@@ -1,1 +1,2 @@
 # landing-page
+This is a landing page that was created using HTML and CSS, which demonstrates various front-end development concepts, and utilizes flexbox extensively. The content included in this page is dummy content, and can easily be modified to fit the requirements for any product or business.
